@@ -25,6 +25,7 @@ app.get("/news/:id", (req, res) => {
   res.send(selectedNews);
 });
 
+
 app.get("/categories/:id", (req, res) => {
   const id = parseInt(req.params.id);
   console.log(id);
